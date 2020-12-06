@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+.my-list{
+  flex-basis: 50%;
+}
+.beside-list{
+  flex-basis: 50%;
+}
+.column{
+  flex-basis: 25%;
+  padding: 0 4px;
+}
+.footer{
+  background-color: #6449b4;
+  height: 90px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.button{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  opacity: 0.8;
+}
+/* module */
+.section-divider {
+  height: 500px;
+  background-size: cover;
+  background-position: 0% 45%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackbg-text {
+  font-size: 32px;
+  background-color: black;
+  color: white;
+  padding: 14px;
+  letter-spacing: 10px;
+}
+.burger {
+  margin: 0 20%;
+}
+.flex-container {
+  display: flex;
+}
+.p-pic {
+  flex-basis: 40%;
+}
+.discription {
+  flex-basis: 60%;
+  margin-left: 3%;
+  align-self: center;
+}
+/* flow */
+h1,
+h2 {
+  text-align: center;
+}
+/* images */
+.top-image {
+  background-image: url("images/top.jpg");
+}
+
+.mid-image {
+  background-image: url("images/mid.jpg");
+}
+.btm-image {
+  background-image: url("images/btm.jpg");
+}
+img {
+  width: 100%;
+}
